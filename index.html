@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KarlDev</title>
     <link rel="icon" type="image/png" href="photo/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -59,6 +60,53 @@
         </div>
     </div>
 
+    <!-- Services -->
+    <div class="services">
+        <h1>Services</h1>
+        <div class="line"></div>
+        <div class="service">
+            <i class="fas fa-laptop-code"></i>
+            <h2>Web Development</h2>
+            <p>
+                I will create you a website from scratch.
+            </p>
+        </div>
+        <div class="service">
+            <i class="fa-brands fa-discord"></i>
+            <h2>Discord Bots</h2>
+            <p>
+                I will develop a bot and host it for you.
+            </p>
+        </div>
+    </div>
+
+    <!-- My Work -->
+    <div class="work">
+        <h1>My Work</h1>
+        <div class="line"></div>
+        <a href="https://top.gg/bot/853992850781896704">
+            <div class="service">
+                <i class="fa-brands fa-discord"></i>
+                <h2>Quote Bot</h2>
+                <p>
+                    A Discord Bot. Click for more info.
+                </p>
+            </div>
+        </a>
+    </div>
+    <!-- Contacts -->
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false">
+            <h3>Contact Me</h3>
+            <div class="line2"></div>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
     <footer class="footer">
         <ul class="social-icon">
             <li class="social-icon__item">
@@ -85,6 +133,8 @@
     <script src="js/main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/22a28b876b.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
