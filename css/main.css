@@ -196,6 +196,16 @@ header {
     width: 0;
 }
 
+@media screen and (max-width: 549px) {
+    .progress {
+        height: 30px;
+        width: 400px;
+    }
+    .about-me p {
+        font-size: 15px;
+    }
+}
+
 @keyframes load {
     0% {
         width: 0;
